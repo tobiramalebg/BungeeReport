@@ -1,0 +1,61 @@
+REPORT:
+  COOLDOWN: 60
+  USAGE:
+    INCORRECT:
+      - '&cUsage: /report <player> <reason>'
+    NO-REASON:
+      - '&cPlease specify a reason for reporting &e<target>&c.'
+      - '&cUsage: /report <player> <reason>'
+    UNKNOWN-REASON:
+      - '&cUnknown reason, use this:'
+      - '&c Cheats: AntiKnockBack, KillAura, Fly.'
+      - '&c Others: Camping, Spam.'
+    SUCCESSFULLY:
+      - '&aReport has been sent to our moderation team.'
+  REASONS:
+    USE-CUSTOM-REASON: false
+    LIST:
+      - 'KillAura'
+      - 'AntiKnockBack'
+      - 'Fly'
+      - 'Camping'
+      - 'Spam'
+  NOTIFY-MESSAGE:
+    - '&7&m-----------------------------------------'
+    - '&a<player>&f reported &c<target>&f.'
+    - '&f Reason: &e<reason>'
+    - '&f Server: &9<server>'
+    - '&7&m-----------------------------------------'
+  TOGGLE-MESSAGE:
+    ENABLED: '&aEnabled report notifications.'
+    DISABLED: '&cDisabled report notifications.'
+  HOVER:
+    MESSAGE: '&aClick to join &e<server>&a server.'
+    COMMAND: '/server <server>'
+  TITLE:
+    ENABLED: false
+    LINES:
+      1: '&aNew report'
+      2: '&a<player> &freported &c<target>&f.'
+CANCEL-SERVERS:
+  REPORT-COMMAND:
+    - 'Hub'
+    - 'Lobby'
+    - 'PreHub'
+    - 'PreLobby'
+  NOTIFY-MESSAGE:
+    - 'PreHub'
+    - 'PreLobby'
+OTHERS:
+  NO-ONLINE: '&c<target> is not online.'
+  NO-SERVER: '&cYou cannot report player on <server> server.'
+  NO-CONSOLE: '&cOnly players can use this command.'
+  NO-REPORTS: '&cNo players got reported.'
+  NO-YOURSELF: '&cYou cannot report yourself!.'
+  NO-PERMISSIONS: '&cYou do not have permission.'
+  COOLDOWN-FORMAT:
+    SECOND: 'second'
+    SECONDS: 'seconds'
+    MINUTE: 'minute'
+    MINUTES: 'minutes'
+  COOLDOWN: '&cPlease wait &e<cooldown> &cbefore re-using report.'
